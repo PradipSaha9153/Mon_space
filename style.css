@@ -1,0 +1,622 @@
+body {
+    font-family: "Poppins", serif;
+    font-family: "Montserrat", serif;
+    margin: 0;
+}
+
+/*-------------------------------------Footer*/
+.footer {
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    display: flex;
+}
+
+.footer h3 {
+    margin-left: 1rem;
+    margin-top: 0rem;
+}
+
+#options {
+    margin-left: 42%;
+    margin-top: 0;
+    font-size: 1rem;
+    border: none;
+}
+
+.footer p {
+    cursor: pointer;
+    display: flex;
+    margin-left: 6rem;
+    font-weight: 500;
+}
+
+.footer p:hover {
+    text-decoration: underline;
+}
+
+#about {
+    padding-top: 0.8rem;
+}
+
+.footer a {
+    height: 2rem;
+    width: 6rem;
+    margin-left: 6rem;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 0.7rem 0.6rem 0 1.6rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/*-------------------------------------Title1*/
+.title1 {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.title1 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title1 .find {
+    margin-top: 5rem;
+}
+
+.inspired {
+    display: flex;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.inspired .left {
+    margin-left: 1%;
+    margin-bottom: 1rem;
+}
+
+.inspired .right {
+    margin-left: 79%;
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+.inspired .right p,
+.left p {
+    margin: 0rem;
+}
+
+/*------------------------------------------First Para*/
+.first-para img {
+    height: 45rem;
+}
+
+.first-para {
+    justify-self: center;
+}
+
+.first-two {
+    display: flex;
+    position: relative;
+    bottom: 124px;
+}
+
+/*------------------------------------First two left*/
+
+.first-two .left {
+    margin-left: 1.7rem;
+    height: 120px;
+    width: 1050px;
+    background-color: white;
+    display: flex;
+}
+
+.first-two .left .ques {
+    margin-top: 37px;
+    margin-right: 120px;
+    font-weight: 600;
+}
+
+.first-two .left .q {
+    color: gray;
+    padding-bottom: 0.6rem;
+}
+
+.first-two .left a {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 0.99rem;
+    text-decoration: none;
+    margin-top: 37px;
+    height: 1.5rem;
+    width: 6rem;
+    padding: 0.6rem 0 0.5rem 1.2rem;
+    align-content: center;
+}
+
+.first-two .left a:hover {
+    text-decoration: underline;
+}
+
+/*------------------------------------First two right*/
+.first-two .right {
+    height: 120px;
+    width: 415px;
+    display: flex;
+}
+
+.first-two .right .p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 0.9rem;
+    margin-left: 1.9rem;
+}
+
+.first-two .right img {
+    height: 3.5rem;
+    margin-top: 2.2rem;
+    margin-left: 5rem;
+}
+
+/*----------------------------------------Title2*/
+.title2 {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    position: relative;
+    bottom: 35px;
+}
+
+.title2 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*----------------------------------------Title2 head*/
+.title2-head {
+    display: flex;
+    color: gray;
+}
+
+.title2-head h5 {
+    margin-left: 1rem;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.title2-head h5:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.title2-head .h1 {
+    margin-right: 1rem;
+}
+
+.title2-head .h5 {
+    margin-left: 6rem;
+}
+
+.title2-head-underline {
+    height: 2px;
+    width: 97.4%;
+    margin-left: 1rem;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    background-color: #9a9a9a81;
+}
+
+/*--------------------------------------Title2 content*/
+.title2-content {
+    display: flex;
+    margin-bottom: 8rem;
+}
+
+.title2-content img {
+    height: 35rem;
+    margin-right: 2rem;
+}
+
+.title2-content .description {
+    margin-left: 4rem;
+}
+
+.title2-content h2 {
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.title2-content .about {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.title2-content .about2 {
+    margin-top: 0.4rem;
+    margin-left: 5rem;
+}
+
+.title2-content .describe {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 5rem;
+    padding-right: 10rem;
+}
+
+/*---------------------------------------------Tittle 3*/
+.title3 {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    position: relative;
+    bottom: 35px;
+}
+
+.title3 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*---------------------------------------------Tittle 3 content*/
+.title3-content {
+    display: flex;
+}
+
+/*_________________________________________Left Cards*/
+
+.title3-content .content1 {
+    margin-left: 2rem;
+}
+
+.title3-content .content1 .card img {
+    height: 15rem;
+}
+
+.title3-content .content1 .card .name {
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #434343;
+}
+
+.title3-content .content1 .card .address {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+}
+
+/*_________________________________________Center Cards*/
+
+.title3-content .content2 .cardX img {
+    height: 38rem;
+}
+
+.title3-content .content2 .cardX {
+    margin: 0 5.5rem 0 5.5rem;
+}
+
+.title3-content .content2 .cardX .name {
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #434343;
+}
+
+.title3-content .content2 .cardX .address {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+}
+
+/*__________________________________________Right Cards*/
+
+.title3-content .content3 .card img {
+    height: 15rem;
+}
+
+.title3-content .content3 .card .name {
+    margin-top: 0.7rem;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #434343;
+}
+
+.title3-content .content3 .card .address {
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+}
+
+
+/*----------------------------------------------Title 4*/
+.title4 {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.title4 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title4 .find {
+    margin-top: 5rem;
+}
+
+/*-------------------------------------------Title 4 content*/
+.title4-content {
+    display: flex;
+    margin-bottom: 3rem;
+    margin-top: 7rem;
+}
+
+.title4-content .card {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.title4-content .map {
+    margin-left: 6rem;
+}
+
+.title4-content .card .main-icon {
+    font-size: 4rem;
+    margin-bottom: 4.5rem;
+}
+
+.title4-content .card h2 {
+    margin: 0 0 0 0;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.title4-content .card p {
+    padding-right: 3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.title4-content .card a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    align-self: center;
+}
+
+.title4-content .card a:hover {
+    text-decoration: underline;
+}
+
+/*___________________________________content 2*/
+.title4-content2 {
+    display: flex;
+    margin-top: 9rem;
+    margin-bottom: 7rem;
+}
+
+/*_____________________________________card left*/
+.title4-content2 .left {
+    margin-left: 1.5rem;
+}
+
+.title4-content2 .left h1 {
+    font-size: 5.5rem;
+    font-family: "Orbitron", sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title4-content2 .left p {
+    margin-top: 1.8rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.title4-content2 .left #country {
+    margin-top: 2rem;
+}
+
+.title4-content2 .left select {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    height: 4rem;
+    width: 25rem;
+    padding-left: 2rem;
+    border-color: #ccc8c8b6;
+    -webkit-appearance: none;
+}
+
+
+.title4-content2 .left .fa-angle-down {
+    position: relative;
+    right: 3rem;
+}
+
+.title4-content2 .left button {
+    color: white;
+    background-color: black;
+    height: 3.5rem;
+    width: 10rem;
+    font-size: 1.1rem;
+}
+
+.title4-content2 .left button:hover {
+    text-decoration: underline;
+}
+
+/*_____________________________________card right*/
+.title4-content2 .right {
+    display: flex;
+}
+
+.title4-content2 .right ul {
+    padding-left: 1rem;
+    font-weight: 500;
+}
+
+.title4-content2 .right p {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.title4-content2 .right .card1 {
+    margin-right: 1.5rem;
+}
+
+.title4-content2 .right .card2 {
+    margin-right: 1rem;
+}
+
+.title4-content2 .right img {
+    height: 30rem;
+}
+
+/*------------------------------------Title 4*/
+.title5 {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.title5-content {
+    display: flex;
+}
+
+.title5-content .card img {
+    height: 17.6rem;
+}
+
+.title5-content .card h2 {
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+.title5-content .card {
+    margin-right: 2rem;
+}
+
+/*--------------------------------------Title 6*/
+.title6 {
+    display: flex;
+    margin: 5rem 1rem 5rem 1rem;
+}
+
+/*_____________________________________Title 6 left*/
+.title6 .left {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.title6 .left h1 {
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+.title6 .left p {
+    margin-top: 2.5rem;
+    font-weight: 500;
+}
+
+.title6 .subscription-box {
+    display: flex;
+    max-width: 36rem;
+    height: 4rem;
+    margin-top: 2rem;
+}
+
+.email-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 19px;
+    border: 1px solid #ccc;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+
+.subscribe-button:hover {
+    background-color: rgb(148, 0, 0);
+}
+
+/*________________________________________Tittle 6 right*/
+.title6 .right img {
+    height: 25rem;
+    margin-left: 9rem;
+}
+
+/*--------------------------------------------Company Info*/
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+.company-info .info {
+    
+    max-width: 400px;
+}
+
+.company-info .info a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    display: flex;
+    font-weight: 500;
+}
+
+.company-info .info a:hover {
+    text-decoration: underline;
+}
+
+.company-info .info p {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/*------------------------------------Border*/
+.border {
+    height: 2px;
+    background-color: #c7c7c7;
+}
+
+/*-------------------------------------Footer*/
+.end {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
